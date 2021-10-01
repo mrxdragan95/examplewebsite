@@ -1,0 +1,29 @@
+body {
+    margin: 0 auto;
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+
+nav {
+
+  align-content: center;
+  width: 70px;
+  height: 300px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+
+}
+p {
+    border: 3px solid blue;
+}
+
+div {
+  /* properties can be set individually for fine control */
+  border-width: 5px;
+  border-style: solid;
+  border-color: green;
+  height: 300px;
+  align-content: center;
+
+  /* or just use the shortcut to do the same thing */
+  border: 5px solid green;
+}
