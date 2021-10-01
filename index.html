@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en" id="top">
+
+<!-- Head -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/fitness_at_home3.png">
+  <link href="https://allfont.net/allfont.css?fonts=agency-fb-bold" rel="stylesheet" type="text/css" />
+  <title>P2408503 - Dragan Butkovic</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Web Navigation -->
+  <header id="bar">
+    <a href="#top">
+      <div class="size-heart">
+        <div class="heart"></div>
+      </div>
+      <img class="logo" src="img/fitness_at_home3.png" alt="logo1">
+      <h1>Fitness@Home</h1>
+    </a>
+    <button class="toggle">menu</button>
+    <nav class="nav-menu">
+      <a class="link" href="#about">about</a>
+      <a class="link" href="#gain-mass">gain mass</a>
+      <a class="link" href="#lose-weight">lose weight</a>
+      <a class="link" href="#contact-us">contact us</a>
+    </nav>
+  </header>
+
+  <!-- Video and image cover -->
+  <main class='Cover'>
+    <!-- White opacity cover -->
+    <!-- Video Cover for only Desktop -->
+    <video loop muted autoplay poster="img/fitnessathome.mp4" class="background-video">
+      <source src="img/fitnessathome.mp4" type="video/mp4">
+      </video>
+      <!-- Image Cover for Tablet and Mobile -->
+      <img src="img/Execrising2.jpg" class="background-img" alt="Execrising">
+      <!-- Subheading on the cover -->
+      <h2>“Mens sana in corpore sano” <br> “A healthy mind in a healthy body”</h2>
+      <!-- Logo desktop/table and short logo Mobile -->
+      <img src="img/fitness_at_home.png" class="logo-desktop-table" alt="logo2">
+      <img src="img/fitness_at_home2.png" class="logo-mobile" alt="logo3">
+    </main>
+
+    <!-- About section -->
+    <section id="about" data-name="about About input">
+      <!-- About -->
+      <!-- a half opacity -->
+      <aside class="color-overlay">
+        <div class="about-content">
+          <!-- Header -->
+          <h2>About</h2>
+          <!-- paragraph -->
+          <p>
+            Our mission with the website Fitness@Home is to provide good ideas
+            of various exercises for people who have to stay at home during
+            the COVID-19 pandemic. Fitness@Home is any time exercise and
+            fitness, just a button away. We are also offering diet charts
+            depending of your plan whether to gain muscles or lose weight.
+            Our motto is: “in healthy body is a healthy spirit” so we can
+            help you to focus on more important things in your life.
+          </p>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Gain Mass section -->
+    <section id="gain-mass" data-name="gain-mass Gain-Mass input">
+      <!-- Slider -->
+      <aside class="slider">
+        <!-- Heading of the slider -->
+        <h2>Gain Mass</h2>
+        <!-- #1 Gain-mass blog post with animation "rubberBand" -->
+        <div id="gainMassData" class="AllGainMass">
+          <!-- Title, information, image and gifs (JSON)-->
+        </div>
+        <!-- Clicking prev and next the slider -->
+        <a id="plusSlides11" class="prev">&#10094;</a>
+        <a id="plusSlides12" class="next">&#10095;</a>
+
+        <!-- Clicking dots of slider options -->
+        <div class="header-dot">
+          <span id="currentSlide11" class="dot"></span>
+          <span id="currentSlide12" class="dot"></span>
+          <span id="currentSlide13" class="dot"></span>
+          <span id="currentSlide14" class="dot"></span>
+          <span id="currentSlide15" class="dot"></span>
+          <span id="currentSlide16" class="dot"></span>
+          <span id="currentSlide17" class="dot"></span>
+        </div>
+      </aside>
+    </section>
+    <!-- Lose Weight Section -->
+    <section id="lose-weight" data-name="lose-weight Lose-Weight input">
+      <!-- Slider -->
+      <aside class="slider">
+        <!-- Heading of the slider -->
+        <h2>Lose Weight</h2>
+        <!-- #1 Lose-weight blog post with animation "rubberBand" -->
+        <div id="LoseWeightData" class="AllLoseWeight">
+          <!-- Title, information, image and gifs -->
+        </div>
+        <!-- Clicking prev and next the slider -->
+        <a id="plusSlides21" class="prev2">&#10094;</a>
+        <a id="plusSlides22" class="next2">&#10095;</a>
+
+        <!-- Clicking dots of slider options -->
+        <div class="header-dot">
+          <span id="currentSlide21" class="dot2"></span>
+          <span id="currentSlide22" class="dot2"></span>
+          <span id="currentSlide23" class="dot2"></span>
+          <span id="currentSlide24" class="dot2"></span>
+          <span id="currentSlide25" class="dot2"></span>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact-us"  data-name="contact-us Contact input">
+
+      <!-- contact us card for forms -->
+      <aside class="contact-us-blog-post-img">
+        <img src="img/pushup2.jpg" alt="pushup2">
+      </aside>
+      <h2>Contact Us</h2>
+      <!-- Forms, Name, Email and Message -->
+      <form id="colours">
+        <label for="myName">Name: </label>
+        <input id="myName" name="name" placeholder="Enter your name..." required>
+        <label for="myEmail">Email: </label>
+        <input id="myEmail" type="email" name="email" placeholder="Enter your email..." required>
+        <label for="myConfirmationEmail">Confirm email: </label>
+        <input id="myConfirmationEmail" type="email" name="email" placeholder="Confirm your email..." required>
+        <label for="myMessage">Message: </label>
+        <textarea id="myMessage" name="message" placeholder="Type your message here...."></textarea>
+        <input id="send" type="Submit" value="Send">
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+      <!-- Footer - container - grid -->
+      <aside class = "container-footer">
+        <aside class="grid-container-footer">
+          <!-- Footer logo image -->
+          <div class="grid-item-footer">
+            <img src="img/fitness_at_home.png" class="logo-img-footer" alt="logo-footer">
+          </div>
+          <!-- About, Gain-mass, Lose-weight, and Contact-us -->
+          <div class="inner-grid-container-footer">
+            <a class="grid-item-footer" href="#about">about</a>
+            <a class="grid-item-footer" href="#gain-mass">gain mass</a>
+            <a class="grid-item-footer" href="#lose-weight">lose weight</a>
+            <a class="grid-item-footer" href="#contact-us">contact us</a>
+          </div>
+          <!-- Search Engine -->
+          <aside class="grid-item-footer">
+            <div class="search-box">
+              <input id="mysearch" type="text" class="searchTerm" placeholder="What are you looking for?">
+              <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </aside>
+        </aside>
+        <hr>
+        <p>
+          Copyright © 2021 | Dragan Butkovic(mrxdragan) | P2408503 |
+          De-Montfort University | Fitness@Home All rights reserved
+        </p>
+      </aside>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script src="js/articleMassData.js"></script>
+    <script src="js/articleLoseData.js"></script>
+    <script src="js/loadMassData.js"></script>
+    <script src="js/loadLoseData.js"></script>
+  </body>
+  </html>
